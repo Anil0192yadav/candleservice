@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "AWS region"
-  default     = "eu-west-2"
+  default     = "ap-south-1"
 }
  
 variable "vpc_cidr" {
@@ -15,7 +15,7 @@ variable "public_subnet_cidr" {
  
 variable "availability_zone" {
   description = "Availability zone for the subnet"
-  default     = "eu-west-2b"
+  default     = "ap-south-1b"
 }
  
 variable "vpc_name" {
@@ -40,12 +40,12 @@ variable "security_group_name" {
  
 variable "ec2_ami" {
   description = "AMI ID for EC2 instance"
-  default     = "ami-027d95b1c717e8c5d"
+  default     = "ami-0449c34f967dbf18a"
 }
  
 variable "ec2_instance_type" {
   description = "Instance type for EC2 instance"
-  default     = "t2.micro"
+  default     = "t2.large"
 }
  
 variable "ec2_instance_name" {
