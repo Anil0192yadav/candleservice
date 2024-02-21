@@ -1,2 +1,1 @@
-# aaritya-test-dev
-terraform script
+# impl-vidhya-test
