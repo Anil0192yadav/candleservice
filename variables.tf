@@ -53,11 +53,11 @@ variable "ec2_ami" {
  
 variable "ec2_instance_type" {
   description = "Instance type for EC2 instance"
-  default     = "c5a.xlarge"
+  default     = "c5a.2xlarge"
 }
  
 variable "ec2_instance_name" {
   description = "Name tag for EC2 instance"
-  default     = "Tickerfeed"
+  default     = "Candle"
 }
  
